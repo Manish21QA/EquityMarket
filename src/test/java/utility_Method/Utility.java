@@ -46,8 +46,10 @@ public class Utility {
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(time));
 	}
 	
-	public static void demo(){
 	
-	}
+	
+	
+	
+	
 
 }
