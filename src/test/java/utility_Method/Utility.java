@@ -45,6 +45,9 @@ public class Utility {
 	public static void WaitFor(WebDriver driver,int time) {
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(time));
 	}
-
+	
+	public static void demo(){
+	
+	}
 
 }
