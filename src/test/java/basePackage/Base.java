@@ -19,6 +19,8 @@ public class Base {
 		
 		driver.get(Utility.readDataForProperties("url"));
 		driver.manage().window().maximize();
+		
+		
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
 
 	}
